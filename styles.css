@@ -1,0 +1,78 @@
+body{
+ display: flex;
+ flex-direction: row;
+ height: 100vh;
+ margin: 0;
+}
+.pic{
+    flex: 1;
+}
+.pic img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+.sign{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.head{
+    background-color: rgb(165, 92, 218);
+    color: white;
+    padding: 70px;
+    font-size: larger;
+}
+
+.form{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.form div{
+    margin-bottom: 15px;
+}
+
+.left{
+    margin-top: auto;
+    margin-right: 20px;
+}
+.right{
+    margin-top: auto;
+    margin-left: 20px;
+}
+label{
+    display: block;
+    font-size: 25px;
+
+}
+input{
+    width: 250px;
+    height: 35px;
+    font-size: 16px;
+    border-radius: 6px;
+}
+.submit{
+    padding: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(165, 92, 218);
+    color: white;
+}
+.account{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+a{
+    color: white;
+}
